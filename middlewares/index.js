@@ -8,7 +8,7 @@ const mongoSanitize = require("express-mongo-sanitize");
 const morgan = require("morgan");
 
 module.exports = [
-  express.json({ limit: "2mb" }),
+  express.json({ limit: "10mb" }),
   express.urlencoded({ extended: true }),
   compression(),
   cookieParser(),

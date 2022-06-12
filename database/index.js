@@ -13,6 +13,7 @@ const connectMongoAtlas = async () => {
     .then(() => {
       console.log("DB Connection Succesful!");
     });
+
 };
 
 module.exports = {

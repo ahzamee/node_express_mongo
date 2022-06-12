@@ -17,18 +17,18 @@ export const s3 = {
     },
 };
 export const db = {
-    mongo: {
-        username: process.env.DB_USER || '',
-        password: process.env.DB_PASS || '',
-        port: process.env.DB_PORT || '27017',
-        host: process.env.DB_HOST || 'localhost',
-        dbname: process.env.DB_NAME || 'fareDB',
-        ip: process.env.MONGO_IP || 'mongo',
-    },
-    redis: {
-        host: process.env.REDIS_HOST || 'localhost',
-        port: process.env.REDIS_PORT || '6379',
-    },
+  mongo: {
+    username: process.env.DB_USER || "",
+    password: process.env.DB_PASS || "",
+    port: process.env.DB_PORT || "27017",
+    host: process.env.DB_HOST || "localhost",
+    dbname: process.env.DB_NAME || "fareDB",
+    ip: process.env.MONGO_IP || "mongo",
+  },
+  redis: {
+    host: process.env.REDIS_HOST || "localhost",
+    port: process.env.REDIS_PORT || "6379",
+  },
 };
 export const mail = {
     from: process.env.EMAIL_ADDRESS || '',
